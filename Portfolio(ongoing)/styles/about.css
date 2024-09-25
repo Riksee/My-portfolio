@@ -1,0 +1,38 @@
+.grid-container {
+  display: flex;
+  padding: 12px;
+  border: solid 2px var(--dark-blue-grey);
+  margin-bottom: 36px;
+  gap: 24px;
+}
+
+.grid-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-text {
+  flex: 1;
+}
+
+.grid-image--music {
+  background-image: url("../assets/music.jpg");
+}
+
+.grid-image--food {
+  background-image: url("../assets/food.jpg");
+}
+
+h1 {
+  line-height: 1;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  border-bottom: dotted 2px currentColor;
+}

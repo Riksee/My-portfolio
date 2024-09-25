@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 span {
+  display: block;
+  line-height: 1;
+}
+
+a.explore-link {
+  color: var(--dark-blue-grey);
+  font-weight: bold;
+  font-size: 0.75em;
+}
